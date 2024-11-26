@@ -1,0 +1,31 @@
+/* Style for Mini Word Component */
+.mini-word-container {
+    margin-bottom: 40px; 
+    padding: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+    background-color: #f8f9fa; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for Rainbow Text Input */
+  .rainbow-container {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #eaf7ff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rainbow-input {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+  }
+  

@@ -1,0 +1,45 @@
+<div class="mini-word">
+    <h2>Mini Word</h2>
+  
+    <!-- Input for Text Color -->
+    <label for="color">Text Color: </label>
+    <input
+      id="color"
+      type="text"
+      placeholder="Enter a color (e.g., red, #ff0000)"
+      [(ngModel)]="textColor"
+    />
+    <br />
+  
+    <!-- Input for Font Size -->
+    <label for="fontSize">Font Size: </label>
+    <input
+      id="fontSize"
+      type="number"
+      placeholder="Enter font size (e.g., 20)"
+      [(ngModel)]="fontSize"
+    />
+    <br />
+  
+    <!-- Select for Font Family -->
+    <label for="fontFamily">Font Family: </label>
+    <select id="fontFamily" [(ngModel)]="fontFamily">
+      <option value="Arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Courier New">Courier New</option>
+    </select>
+    <br />
+  
+    <!-- The Paragraph -->
+    <p
+      [ngStyle]="{
+        'color': textColor,
+        'font-size': fontSize + 'px',
+        'font-family': fontFamily
+      }"
+    >
+      This is your paragraph. You can change the color, font size, or font family by manipulating the settings above :D
+    </p>
+  </div>
+  
